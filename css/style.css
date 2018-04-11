@@ -1,0 +1,371 @@
+body {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+/*  Main navigation*/
+
+.nav {
+  width: 100%;
+  padding: 20px 0;
+  display: inline-flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.nav .logo {
+  background-image: url('http://www.jackwills.com/on/demandware.static/-/Sites-jwuk-Library/default/dw79bb1097/images/logo_jackwills.svg');
+  background-repeat: no-repeat;
+  width: 226px;
+  padding: 15px;
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav .nav-links li {
+  font-size: 12px;
+  font-weight:400;
+  list-style: none;
+  display: inline-flex;
+  margin: 0 5px 0 5px;
+}
+
+.nav .nav-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav .nav-links .active {
+  color: red;
+}
+
+/* Subnavigation */
+.subnav {
+  padding: 7px 0;
+  background-color: #5d5e60;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+  width: 100%;
+}
+
+.subnav .bar{
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.subnav .subnav-content {
+  margin: 10px auto;
+  min-width: 208px;
+  padding: 0 20px;
+  max-width: 285px;
+  text-align: center;
+}
+
+.subnav .subnav-content h6 {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.subnav .subnav-content p {
+  margin-top: 10px;
+  font-size: 8px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* Banner */
+
+.banner {
+  border: 5px solid #5d5e60;
+  text-align: center;
+  background-color: #fffdf1;
+  margin: 10px;
+}
+
+.banner .sale {
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+.banner .sale h1 {
+  font-size: 88px;
+  letter-spacing: 25px;
+  color: #dd4d32;
+  font-weight: 400;
+}
+
+.banner .sale h6 {
+  letter-spacing: 5px;
+  font-size: 20px;
+  color: #626262;
+}
+
+.banner .sale h2 {
+  letter-spacing: 5px;
+  font-size: 58px;
+  color: #626262;
+}
+
+.banner .sale p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  padding: 8px;
+  color: #fff;
+  font-weight: 100;
+  background-color: #dd4d32;
+}
+
+.banner .item-row .banner-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.banner .item-row .banner-items li {
+  flex-wrap: wrap;
+  padding: 8px;
+  border: 1px solid #9a9898;
+  min-width: 272px;
+  margin: 10px auto;
+  list-style-type: none;
+}
+
+.banner .item-row .banner-items li a {
+  text-decoration: none;
+  color: #dd4d32;
+  font-size: 14px;
+}
+
+/* content */
+.content {
+  padding: 10px 164px;
+}
+
+.content .row {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content .row .offer {
+  margin-top: 10px;
+}
+
+.content .row .offer .offer-content {
+  padding: 30px;
+  background-color: #e44a2e;
+  margin-top: -2px;
+  text-align: center;
+}
+
+.content .row .offer .offer-content h5 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+.content .row .offer .offer-content a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* new collection */
+
+.content .row-2 {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.content .row-2 h2 {
+  margin-top: 20px;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.content .row-2 .image-container {
+  position: relative;
+  text-align: center;
+  border-bottom: 2px solid #dddddd;
+}
+
+.row-2 .image-container img {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.row-2 .image-container .image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row-2 .image-container .image-text h5 {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.row-2 .image-container .image-text a {
+  padding-bottom: 5px;
+  border-bottom: 2px solid gray;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* footer */
+.row-footer {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .image-container {
+  position: relative;
+  text-align: center
+}
+
+.footer .image-container .image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer .image-container .image-text a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #f05d55;
+  font-weight: 600;
+}
+
+.row-footer .footer .footer-content {
+  margin-top: 16px;
+  max-width: 290px;
+  text-align: center;
+}
+
+.row-footer .footer .footer-content a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #dddddd;
+  font-size: 10px;
+}
+
+.row-footer .footer .footer-content p {
+  margin-top: 26px;
+  font-size: 10px;
+  line-height: 2.4;
+  color: #dddddd;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 400px) {
+
+  .nav {
+    padding: 0;
+  }
+
+  .nav .nav-links {
+    margin: 20px auto;
+    padding-top: 35px;
+  }
+
+  .nav .logo {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .subnav .bar{
+    display: none;
+  }
+
+  .banner {
+    padding: 30px;
+  }
+  .content {
+    padding: 30px;
+  }
+
+  .content .row .offer {
+    margin: 10px auto;
+  }
+
+  .content .row-footer .footer {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 744px) {
+
+  .subnav .bar{
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 1060px) {
+
+  .nav {
+    padding: 20px 0;
+  }
+
+  .nav .nav-links {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .nav .logo {
+    margin-top: 0;
+  }
+
+  .banner {
+    padding: 46px 60px;
+  }
+
+  .content {
+    padding: 20px 76px;
+  }
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+  .nav {
+    padding: 24px 0;
+  }
+
+  .banner {
+    padding: 46px 138px;
+  }
+
+  .content {
+    padding: 10px 154px;
+  }
+
+  .content .row-2 .image-container {
+    margin: 18px;
+  }
+
+}
